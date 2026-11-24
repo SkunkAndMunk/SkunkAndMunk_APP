@@ -1,26 +1,26 @@
 {
-  "name": "BASE Creator",
-  "bio": "",
-  "contactEmail": "Place Email",
+  "name": "Skunk And Munk",
+  "bio": "The Show",
+  "contactEmail": "morrismegamedia@gmail.com",
   "contactLabel": "Email",
-  "backgroundColor": "#000000",
+  "backgroundColor": "#ffffff",
   "background": {
-    "enabled": false,
-    "type": "none",
-    "url": ""
+    "enabled": true,
+    "type": "image",
+    "url": "./media/background-image-1795559616734.png"
   },
   "heroMedia": {
     "enabled": true,
     "type": "image",
-    "url": "./media/hero-image-1783820062284.png",
+    "url": "./media/hero-image-1795559618095.png",
     "animation": "float"
   },
   "chime": {
-    "enabled": false,
-    "url": "",
-    "volume": 0.65
+    "enabled": true,
+    "url": "./media/chime-1795559620026.mp3",
+    "volume": 0.5
   },
-  "pillColor": "#000000",
+  "pillColor": "#e32400",
   "innerSurface": {
     "style": "default",
     "color": "",
@@ -32,7 +32,16 @@
     "watch_url": "",
     "description": ""
   },
-  "links": [],
+  "links": [
+    {
+      "label": "📸 Instagram",
+      "url": "https://www.instagram.com/theskunkandmunkshow?utm_source=ig_web_button_share_sheet&gwpx=ZDNlZDc0MzIxNw=="
+    },
+    {
+      "label": "🌐 Skunk And Munktv.com",
+      "url": "https://www.skunkandmunktv.com"
+    }
+  ],
   "mediaGateway": {
     "enabled": false,
     "collections": [
@@ -59,5 +68,10 @@
     "buttonText": "Enter Community",
     "url": "",
     "embed": ""
+  },
+  "analytics": {
+    "enabled": false,
+    "provider": "",
+    "snippet": ""
   }
 }
